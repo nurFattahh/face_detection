@@ -1,0 +1,11 @@
+# Jangan upload file berikut
+.env
+*.pt
+__pycache__/
+.ipynb_checkpoints/
+dataset
+labels.cache
+runs/
+yolov5/face-recognition-4
+
+convert.py
