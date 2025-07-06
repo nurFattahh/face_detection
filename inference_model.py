@@ -41,7 +41,8 @@ while True:
                     cv2.FONT_HERSHEY_SIMPLEX, 0.9, color, 2)
 
         # Action jika terdeteksi fattah
-
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+        print(f'Detected: {timestamp} | {label} ')
 
     # Show FPS
     cv2.putText(frame, f'FPS: {fps:.2f}', (10, 30),
